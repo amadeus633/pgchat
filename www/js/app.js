@@ -34,7 +34,7 @@
         pubnub.history(
             {
                 channel : 'pgday',
-                count : 20
+                count : 1
             },
             function (status, response) {
                 var history = response.messages;
