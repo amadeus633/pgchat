@@ -2,8 +2,8 @@
     'use strict';
 
     var pubnub = new PubNub({
-        publishKey: 'demo',
-        subscribeKey: 'demo'
+        publishKey: 'pub-c-86fbad9a-d312-479c-b936-15bb969564aa',
+        subscribeKey: 'sub-c-7935eb3c-1977-11ec-ba9a-1ae560ca2970'
     });
     
     var states = {
